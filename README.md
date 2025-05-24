@@ -38,37 +38,37 @@ It was very interesting to see the speed at which the API calls were executed ev
 ## Running the Application
 
 ## Setup Instructions
-1. Clone the repository:
+## 1. Clone the repository:
 git clone [<repo-url>](https://github.com/PlibreDev/eCommerce-API)
 cd module-3-project
 
-2. Set up a virtual environment
+## 2. Set up a virtual environment
 python -m venv venv
 venv\Scripts\activate  # On Windows
-# or
+
 source venv/bin/activate  # On macOS/Linux
 
-3. Install dependencies
+## 3. Install dependencies
 pip install -r requirements.txt
 
-## Dependencies
+### Dependencies
 
 * Flask
 * SQLAlchemy
 * Flask-Marshmallow
 * mysql-connector-python
 
-4. Ensure MySQL is running and create the database.
+## 4. Ensure MySQL is running and create the database.
 CREATE DATABASE ecommerce_api;
 
-5. Update the SQLALCHEMY_DATABASE_URI in app.py with your MySQL root password.
+## 5. Update the SQLALCHEMY_DATABASE_URI in app.py with your MySQL root password.
 
-## Notes
+### Notes
 
 This API uses a MySQL database. Make sure you have a MySQL server running and update the database connection settings in `app.py` accordingly.
 
-6. Run the app:
+## 6. Run the app:
 python app.py
 
-7. Import the Postman Collection to test the endpoints
+## 7. Import the Postman Collection to test the endpoints
 
